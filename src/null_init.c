@@ -105,6 +105,7 @@ GLFWbool _glfwConnectNull(int platformID, _GLFWplatform* platform)
         _glfwPollEventsNull,
         _glfwWaitEventsNull,
         _glfwWaitEventsTimeoutNull,
+        _glfwSetWindowTitlebarNull,
         _glfwPostEmptyEventNull,
         _glfwGetEGLPlatformNull,
         _glfwGetEGLNativeDisplayNull,
